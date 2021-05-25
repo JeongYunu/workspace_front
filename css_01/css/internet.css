@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* TOP-2역사 문단끝 */
+body {font-family: "맑은 고딕"; font-size: 17px;}
+h2 {font-size: 25px;}
+h3 {font-size: 20px;}
+#h1-title {font-family: "궁서체"; letter-spacing: 15px; font-size: 30px;}
+#t1p-text01 {font-style: italic; font-weight: bold; color: #0000ff;}
+#t1p-text02 {font-style: italic; font-weight: bold; color: #ff0000;}
+#div-bg {background-color: #d9d9d9;}
+#h3-title01 {color: #00ff00; text-decoration: underline;}
+#t2p-text01 {font-weight: bold; color: #ff0000;}
+#h3-title02 {text-decoration: underline;}
+#div-bg>p {text-indent: 30px;}
+
+/* 3특징-4인터넷의 영향 문단끝 */
+#t3u-li01 {font-weight: bold; color: #00ff00;}
+#t3u-li02 {font-style: italic; color: #0000ff;}
+#t3u-li03 {font-weight: bold; color: #ff0000;}
+ul {list-style-type: square;}
+ol {list-style-type: none;}
+
+/* 5주요 국가별 속도 */
+thead>tr>th {background-color: #c8ebfa;}
+.t5-td01 {text-align: right;}
+.t5-td01::before {content: "약";}
+.t5-td01::after {content: "(MB/초)";}
+td>a:link {color: #000000; text-decoration: none;}
+td>a:visited {color: #000000;}
+tbody>tr:hover {background-color: #edd3ed;}
+td>a:active {color: #0000FF}
+
+

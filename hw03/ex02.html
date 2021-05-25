@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>회원가입</title>
+        <link rel="stylesheet" href="./css/ex02.css">
+    </head>
+    <body>
+        <div id="welcome">
+            <form action="" method="get">
+                <div class="form-group" id="form-none">
+                    <label class="label-title" for="user-id">아이디</label>
+                    <input id="user-id" type="text" name="user-id" value="" placeholder="아이디를 입력하세요">
+                </div>
+                <div class="form-group">
+                    <label class="label-title" for="user-pw">패스워드</label>
+                    <input id="user-pw" type="password" name="user-pw" value="" placeholder="패스워드를 입력하세요">
+                </div>
+                <div class="form-group">
+                    <label class="label-title" for="user-name">이름</label>
+                    <input id="user-name" type="text" name="user-name" value="" placeholder="이름을 입력하세요">
+                </div>
+                <div class="form-group">
+                    <label class="label-title" for="user-pic">프로필사진</label>
+                    <input id="user-pic" type="file" name="user-pic" value="">
+                </div>
+                <div class="form-group">
+                    <label class="label-title" for="user-addr">주소</label>
+                    <input id="user-addr" type="text" name="user-addr" value="" placeholder="우편번호">
+                    <button type="button">우편번호찾기</button>
+                    <div class="form-group2" id="form-none">
+                        <input id="addr2-p" type="text" name="user-addr2" value="" placeholder="주소">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="label-title" for="user-telecom">이동통신사</label>
+                    <select id="user-telecom" name="u-tel">
+                        <option>선택해주세요</option>
+                        <optgroup label="통신사">
+                            <option value="sk">SKT</option>
+                            <option value="lg">LGU+</option>
+                            <option value="kt">KT</option>
+                        </option>
+                        <optgroup label="알뜰폰">
+                            <option>SKT 알뜰폰</option>
+                            <option>LGU+ 알뜰폰</option>
+                            <option>KT 알뜰폰</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <span class="label-title">나이</span>
+
+                    <label for="user-age10">10대</label>
+                    <input id="user-age10" type="radio" name="user-age" value="10">
+
+                    <label for="user-age20">20대</label>
+                    <input id="user-age20" type="radio" name="user-age" value="20">
+
+                    <label for="user-age30">30대</label>
+                    <input id="user-age30" type="radio" name="user-age" value="30">
+
+                    <label for="user-age40">40대</label>
+                    <input id="user-age40" type="radio" name="user-age" value="40">
+
+                    <label for="user-age_etc">기타</label>
+                    <input id="user-age_etc" type="radio" name="user-age" value="age_etc">
+                </div>
+                <div class="form-group">
+                    <span class="label-title">취미</span>
+
+                    <label for="book">독서</label>
+                    <input id="book" type="checkbox" name="hobby" value="book">
+
+                    <label for="music">음악</label>
+                    <input id="music" type="checkbox" name="hobby" value="music">
+
+                    <label for="trip">여행</label>
+                    <input id="trip" type="checkbox" name="hobby" value="trip">
+
+                    <label for="movie">영화</label>
+                    <input id="movie" type="checkbox" name="hobby" value="movie">
+
+                    <label for="coding">코딩</label>
+                    <input id="coding" type="checkbox" name="hobby" value="coding">
+
+                    <label for="hobby_etc">기타</label>
+                    <input id="hobby_etc" type="checkbox" name="hobby" value="hobby_etc">
+                </div>
+                <div class="form-group">
+                    <div id="con-float">
+                        <label class="label-title" for="content">자기소개</label>
+                    </div>
+                    <textarea id="content" class="text-area" name="user-con" value=""></textarea>
+                </div>
+                <div id="btn-area">
+                    <button type="submit">등 록</button>
+                    <button type="reset">초기화</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

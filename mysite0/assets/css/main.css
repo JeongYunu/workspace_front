@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* 메인 */
+#full-content {
+    padding: 15px 10px 15px 10px;
+}
+#full-content #profile-img {
+    width: 20%;
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+#full-content #greetings {
+    float: left;
+}
+#full-content #greetings #greet {
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#full-content #greetings #desc {
+    font-size: 15px;
+}

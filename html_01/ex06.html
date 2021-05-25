@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+    </head>
+
+    <body>
+        <strong>
+            <p>목차</p>
+            <ol>
+                <li><a href="./ex01.html" target="self"> h1~h6태그 </a></li>
+                <li><a href="./ex02.html" target="self"> p br blockquote q strong b em i 태그</a></li>
+                <li><a href="./ex03.html" target="self"> ol ul 리스트</a></li>
+                <li><a href="./ex04.html" target="self"> img 태그 a태그</a></li>
+                <li><a href="./ex05.html" target="self"> table thead tbody tr th td 태그</a></li>
+                <li><a href="./ex06.html" target="self"> 테이블 합치기 태그</a></li>
+                <li><a href="./ex07.html" target="self"> thead tbody tfoot</a></li>
+                <li><a href="./ex08.html" target="self"> 테이블 합치기 종합 연습문제</a></li>
+            </ol>
+                                                                <!--a태그=링크-->
+                                                  
+        </strong>
+            <hr>
+
+        <h1>html 태그</h1>
+        <h2>6. 테이블 합치기 태그</h2>
+
+        <p>가로합치기/세로합치기</p>
+        <table border="1">
+            <tr>
+                <td colspan="3">1,1</td>
+            <!--<td>1,2</td>-->
+            <!--<td>1,3</td>-->
+            </tr>
+            <tr>
+                <td rowspan="2">2,1</td><!--세로합치기 rowspan="2" 2는 칸수-->
+                <td colspan="2">2,2</td><!--가로합치기 colspan="2" 2는 칸수-->
+            <!--<td>2,3</td>-->
+            </tr>
+            <tr>
+            <!--<td>3,1</td>-->   
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+        <br><hr>
+
+
+        <p><strong>테이블 합치기 연습문제</strong></p>
+        <table border="1">
+            <tr>
+                <td colspan="2">모집직군</td>
+                <td>모집전공</td>
+                <td>비고</td>
+            </tr>
+            <tr>
+                <td colspan="2">생산기술직</td>
+                <td>화학공학</td>
+                <td rowspan="3">전공관련 자격증우대</td>
+            </tr>            
+            <tr>
+                <td rowspan="2">생산지원직</td>
+                <td>공무</td>
+                <td>기계, 전기</td>
+            </tr>            
+            <tr>
+                <td>안전환경</td>
+                <td>안전, 환경</td>
+            </tr>            
+            <tr>
+                <td colspan="2">연구개발직</td>
+                <td>화학, 화학공학</td>
+                <td>석사</td>
+            </tr>
+
+        </table>
+            <br>
+            <hr>
+
+        <h2>테이블 태그</h2>
+        <h3>thead, tbody, tfoot<h3>
+        <ul>
+            <li>의미에 맞게 테이블을 구조화 한다.</li>
+        </ul>
+
+        <table border="1">
+            <caption>제주특별자치도 학교현황</caption>
+            <thead>
+                <tr>
+                    <th>구분</th>
+                    <th>학교수</th>
+                    <th>학급수</th>
+                    <th>학생수</th>
+                    <th>교원수</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>유치원</th>
+                    <td>117</td>
+                    <td>252</td>
+                    <td>5547</td>
+                    <td>474</td>
+                </tr>
+                <tr>
+                    <th>초등학교</th>
+                    <td>111</td>
+                    <td>1720</td>
+                    <td>37686</td>
+                    <td>2632</td>
+                </tr>
+                    <th>중학교</th>
+                    <td>44</td>
+                    <td>699</td>
+                    <td>21274</td>
+                    <td>1412</td>
+            </tbody>
+            <tfoot>
+                    <th>합계</th>
+                    <td>272</td>
+                    <td>2671</td>
+                    <td>64507</td>
+                    <td>4518</td>
+            </tfoot>
+
+        </table>
+            
+    </body>
+
+</html>

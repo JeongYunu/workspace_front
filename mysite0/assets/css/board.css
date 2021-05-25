@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* -------- */
+
+
+
+#board #search-area {
+    margin: 0px 0px 10px 0px;
+}
+
+
+#board #search-area form {
+    float: right;
+}
+
+ #board #search-area form input[type="text"] {
+    width: 150px;
+    height: 25px;
+}
+
+#board #search-area form button[type="submit"] {
+    padding: 3px 5px 3px 5px;
+}
+
+/* 테이블 */
+#board #board-list {
+    margin-bottom: 5px;
+}
+
+thead tr>th {
+    background-color: #e6e6e6;
+    padding: 8px 0px;
+}
+
+#board #board-list table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+#board #board-list table tbody tr>td {
+    border-top: 1px solid #bdbdbd;
+    padding: 5px 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+
+/* 페이지 */
+#pager {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+#pager ol {
+    padding: 5px 0px 0px 0px;
+    display: inline-block;
+}
+#pager ol>li {
+    float: left;
+    margin: 0px 5px 0px 0px;
+}
+
+#board #pager #btn-write {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #808080;
+    background-color: #dddddd;
+    border-radius: 2px;
+    float: right;
+}

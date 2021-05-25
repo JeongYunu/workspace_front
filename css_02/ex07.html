@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <!-- 백그라운드 이미지 -->
+        <style>
+            /* div {
+                color: white;
+                background-color: #ff0000;
+            } */
+
+            .bg-img {
+                width: 2000px;
+                height: 2000px;
+                color: white;
+                background-image: url(./img/back_img01.jpg);
+                /* background-repeat: repeat-y; */
+                /* background-size: contain; */
+
+                background-repeat: no-repeat;
+                background-position: left center;
+
+                background-attachment: fixed; /* 최상단가기 단추만들때 유용 */
+            }
+
+            .bg-img2 {
+                width: 2000px;
+                height: 2000px;
+                background: #022250 url(./img/back_img01.jpg) no-repeat fixed center center;
+            }
+
+            .bg-img3 {
+                width: 2000px;
+                height: 2000px;
+                /* background: #7da7d9 url(./img/back_img02.jpg) repeat-y fixed bottom center; */
+                background: #ffffff url(./img/back_img02.jpg) repeat-y fixed bottom center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bg-img3">
+                bdasfafasdf
+        </div>
+
+        <br>
+
+        <!-- 위 예제와 비교 해볼것 -->
+        <!-- <div class="bg-img1">
+            a<br>
+            <img src="./img/back_img01.jpg" alt="구름이미지">
+        </div> -->
+    </body>
+
+</html>

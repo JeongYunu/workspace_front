@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+
+    </head>
+        
+
+    <body>
+            <strong>
+            <p>목차</p>
+            <ol>
+                <li><a href="./ex01.html" target="self"> h1~h6태그 </a></li>
+                <li><a href="./ex02.html" target="self"> p br blockquote q strong b em i 태그</a></li>
+                <li><a href="./ex03.html" target="self"> ol ul 리스트</a></li>
+                <li><a href="./ex04.html" target="self"> img 태그 a태그</a></li>
+                <li><a href="./ex05.html" target="self"> table thead tbody tr th td 태그</a></li>
+                <li><a href="./ex06.html" target="self"> 테이블 합치기 태그</a></li>
+                <li><a href="./ex07.html" target="self"> thead tbody tfoot</a></li>
+                <li><a href="./ex08.html" target="self"> 테이블 합치기 종합 연습문제</a></li>
+            </ol>
+                                                                <!--a태그=링크-->
+            </strong>
+            <hr>
+
+            <h1>html태그</h1>
+            <h2>4. img 태그</h2>
+
+            <h3>이미지 링크 기본</h3>
+            <!--절대경로-->
+            <img src="D:\풀스택\javaStudy\workspace_front\html_01\img\jung.jpg"><br>
+            <img src="D:\풀스택\javaStudy\workspace_front\html_01\img\j.jpg" alt="이미지가 없을경우 or 경로가 잘못된경우 나타내는 문구">
+
+            <br><br>
+
+            <!--상대령로-->
+            <img src="img\jung.jpg"><!--./img/jung.jpg (./는 현재위치 ../는 상위폴더)-->
+
+            <br><br><br>
+
+            <img src="./img/subimg/yoo.jpg"><br>
+            <img src="../seo.jpg" width="80" height="100"><!--../상위폴더-->
+
+            <br><br><br><br>
+            <hr>
+            <h3>a 태그</h3>
+            <a href="https://www.daum.net" target="self">다음</a>
+                                        <!--target="self"는 새창에서 열기-->
+            <br>
+            <a href="https://www.naver.com">네이버</a>
+            <a href="https://www.naver.com" target="self"><strong>네이버</strong>
+            <em>(새창)</em></a>
+            <br>
+            <a href="https://www.naver.com" target="self"><img src="../../pathexample/네이버.jpg">
+            </a>
+            <br>
+            <a href="https://www.daum.net" target="self">
+            <img src="https://t1.daumcdn.net/daumtop_chanel/op/20200723055344399.png">
+            </a>
+    </body>
+
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+         <style>
+             ol {
+                 list-style-type: none;
+             }
+
+             ol>li {
+                 border-right: 1px solid #646464;
+                 float: left;
+                 font-weight: bold;
+                 font-size: 15px;
+                 background-image: url(./img/star.jpg);
+                 background-repeat: no-repeat;
+                 background-position: 20px center;
+                 background-size: 15px 15px;
+                 /* width: 150px; */
+                 height: 25px;
+                 padding: 4px 20px 0px 37px;
+                 margin: 0px 0px 0px 0px;
+             }
+
+             .menu1 {
+                border-right: none;
+             }
+
+             li:hover {
+                 background-color: #6a97db;
+                 color: #ffffff;
+             }
+
+             span {
+                 cursor: pointer;
+             }
+         </style>
+    </head>
+
+    <body>
+        <ol>
+            <li class="menu">
+                <span>메뉴1</span>
+            </li>
+            <li class="menu">
+                <span>메뉴메2</span>
+            </li>
+            <li class="menu">
+                <span>메뉴메뉴3</span>
+            </li>
+            <li class="menu">
+                <span>메뉴메뉴메4</span>
+            </li>
+            <li class="menu1">
+                <span>메뉴메뉴메뉴5</span>
+            </li>
+        </ol>
+    </body>
+
+</html>

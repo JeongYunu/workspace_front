@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.form-group {
+    padding: 10px 5px;
+    border-top: 1px solid #c0c0c0;
+}
+.form-group2 {
+    padding: 5px 0px 0px 5px;
+}
+#form-none {
+    border-top: none;
+}
+
+.label-title {
+    display: inline-block;
+    width: 100px;
+}
+
+#user-id, #user-pw, #user-name, #user-addr {
+    width: 200px;
+}
+
+#addr2-p {
+    margin: 0px 0px 0px 99px;
+    width: 400px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 0px 10px 0px 0px;
+}
+
+.text-area {
+    width: 406px;
+    height: 120px;
+}
+
+#btn-area {
+    border-top: 1px solid #c0c0c0;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+#con-float {
+    float: left;
+}
+
+button[type="submit"], button[type="reset"] {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+button, input[type="file"], input[type="radio"], 
+input[type="checkbox"], select {
+    cursor: pointer;
+}
+
